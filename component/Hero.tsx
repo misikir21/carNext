@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { Custombutton } from ".";
 const Hero = () => {
   return (
     <div className="hero">
@@ -11,6 +12,7 @@ const Hero = () => {
           Streamline your car rental experience with our effotless booking
           process
         </p>
+        <Custombutton />
       </div>
     </div>
   );
