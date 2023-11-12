@@ -4,14 +4,14 @@ import Image from "next/image";
 
 const Custombutton = ({
   title,
-  containerStyles,
+  containerstyles,
   handleClick,
 }: CustombuttonProps) => {
   return (
     <button
       disabled={false}
       type={"button"}
-      className={`custom-btn ${containerStyles}`}
+      className={`custom-btn ${containerstyles}`}
       onClick={handleClick}
     >
       <span className={`flex-1`}>{title}</span>
