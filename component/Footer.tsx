@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { footerLinks } from "@/constant";
+import { link } from "fs";
 const Footer = () => {
   return (
     <footer className="flex flex-col text-black-100 mt-5 border-t border-gray-100 ">
@@ -16,6 +18,20 @@ const Footer = () => {
             Carhub 2023 <br />
             All rights reserved &copy;
           </p>
+        </div>
+        <div className="footer__links">
+          {footerLinks.map((link) => (
+            <div key={link.title}>
+              <h3 className="font-bold">{link.title}</h3>
+              {link.links.map((item) => (
+                <Link
+                  key={item.title}
+                  href={item.url}
+                  className="text-gray-500"
+                ></Link>
+              ))}
+            </div>
+          ))}
         </div>
       </div>
     </footer>
