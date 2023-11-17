@@ -8,7 +8,7 @@ const Navbar = () => {
         className="max-w-[144px] mx-auto flex justify-between items-center
  sm:px-16 px-6 py-4"
       >
-        <link href="/" className="flex justify-center items-center">
+        <Link href="/" className="flex justify-center items-center">
           <Image
             src="/logo.svg"
             alt="car hub logo"
@@ -16,8 +16,9 @@ const Navbar = () => {
             height={118}
             className="object-contain"
           />
-        </link>
+        </Link>
       </nav>
     </header>
   );
 };
+export default Navbar;
