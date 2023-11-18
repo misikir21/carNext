@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Hero } from "@/component";
+import { Hero, CustomFilter, SearchBar } from "@/component";
 export default function Home() {
   return (
     <main className="overflow-hidden">
