@@ -40,7 +40,7 @@ const Footer = () => {
                 Privacy Policy
               </Link>
               <Link href="/" className="text-gray-500">
-                Terms of Use
+                Terms and Conditons
               </Link>
             </div>
           </div>
@@ -49,4 +49,7 @@ const Footer = () => {
     </footer>
   );
 };
+
+
+
 export default Footer;
