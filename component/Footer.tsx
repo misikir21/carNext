@@ -16,10 +16,9 @@ const Footer = () => {
           />
           <p className="text-base text-gray-700">
             Carhub 2023 <br />
-            All rights reserved &copy;
+            All rights Reserved &copy;
           </p>
         </div>
-        <div className="footer__links">
           {footerLinks.map((link) => (
             <div key={link.title} className="footer__link">
               <h3 className="font-bold">{link.title}</h3>
