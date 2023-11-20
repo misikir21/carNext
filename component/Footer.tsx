@@ -16,9 +16,10 @@ const Footer = () => {
           />
           <p className="text-base text-gray-700">
             Carhub 2023 <br />
-            All rights Reserved  Carhub &copy;
+            All rights reserved &copy;
           </p>
         </div>
+        <div className="footer__links">
           {footerLinks.map((link) => (
             <div key={link.title} className="footer__link">
               <h3 className="font-bold">{link.title}</h3>
@@ -40,7 +41,7 @@ const Footer = () => {
                 Privacy Policy
               </Link>
               <Link href="/" className="text-gray-500">
-                Terms and Conditons of use
+                Terms of Use
               </Link>
             </div>
           </div>
@@ -49,7 +50,4 @@ const Footer = () => {
     </footer>
   );
 };
-
-
-
 export default Footer;
