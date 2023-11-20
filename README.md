@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width="146" alt="logo" src="https://github.com/misikir21/Weather/assets/41914268/d0739f6f-2e87-49bf-aaf1-517c0bc35b53">
 
-## Getting Started
+# Restaurant App
+This is a website for food lovers or anyone who is interested in checking out the dish offered. This web application is for individual, commercial and scientific  uses. The application will allow users to view available dishes and book a table. This application is built with JavaScript, HTML, CSS and React More here.
 
-First, run the development server:
+# 📗 Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    -  [🚀 Live Demo ](#-live-demo-)
+  - [🎥 Video Link ](#-video-link-)
+
+- [💻 Getting Started](#getting-started)
+- [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+
+- [🔭 Future Features](#future-features)
+
+- [🤝 Contributing](#contributing)
+
+- [⭐️ Show your support](#support)
+
+- [🙏 Acknowledgements](#acknowledgements)
+
+- [📝 License](#license)
+
+## 🛠 Built With <a name="built-with"></a>
+
+- HTML
+- CSS
+- JavaScript
+- React-js
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+    <summary>Client</summary>
+        <ul>
+            <li><a  href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+          <li><a  href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+        </ul>
+        <ul>
+            <li><a  href="https://developer.mozilla.org/en-US/docs/Web/">ReactJS</a></li>
+          <li><a  href="https://developer.mozilla.org/en-US/docs/Web/">Javascript</a></li>
+        </ul>
+  
+          
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- The project is a single-page application (SPA) built with React and Redux 📃
+- When the page loads, the web app shows the list of dish 🔃
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these easy steps.
+
+### Prerequisites
+
+In order to run this project you need to this tools:
+
+- Web browser.
+- Code editor.
+- Git scm.
+
+### Setup
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- comming soon
+
+
+## 🎥 Video Link <a name="live-demo"></a>
+
+
+Clone this repository to your desired folder:
+
+Run this command:
+
+```sh
+ cd my-folder
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install this project with:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Run this command:
 
-## Learn More
+```sh
+ cd my-folder
+ npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run the project, execute the following command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Open index.html using live server extension.
 
-## Deploy on Vercel
+## 👥 Authors <a name="getting-started"></a>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+👤 Misikir Abate Teka <br>
+Full stack developers building user-friendly and interactive web applications. Proven ability to work independently and as part of a team to deliver high-quality products.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2 id="contact">📞 Contact</h2>
+Contact 📞
+If you have any inquiries, suggestions, or feedback, please feel free to contact us. You can reach out to us via:
+
+- [Email](misikirteka@gmail.com) <br>
+- [Phone:](+251924849485) <br>
+  Social Media: Follow us on Twitter, Facebook, and Instagram for updates and special offers.
+- [Github](https://github.com/misikir21)
+- [linkedin](https://www.linkedin.com/in/misikir-teka/)
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] A complete website with navigation
+- [ ] Add more styles to make it more awesome
+- [ ] Featch dish data from API 
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project just give it a star ⭐️.
+
+Everybody is welcome to suggest changes in the Bookstore project.
+
+In order to do it, fork this repository, create a new branch and open a Pull Request from your branch
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the designer of the UI here <a href="https://ui8.net/iqonicdesign/products/gericht-restaurant-website-ui-in-figma">sakwadesignstudio</a>
+
+## 📝 License <a name="LICENSE"></a>
+
+This project  licensed <a href="https://choosealicense.com/licenses/mit/">MIT</a>.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
