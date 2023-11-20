@@ -16,7 +16,7 @@ const Footer = () => {
           />
           <p className="text-base text-gray-700">
             Carhub 2023 <br />
-            All rights Reserved &copy;
+            All rights Reserved  Carhub &copy;
           </p>
         </div>
           {footerLinks.map((link) => (
