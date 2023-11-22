@@ -41,10 +41,10 @@ const Footer = () => {
                 Privacy Policy
               </Link>
               <Link href="/" className="text-gray-500">
-                Terms and Conditions(TC)
+                Terms and Conditions(TC) here
               </Link>
             </div>
-          </div>l
+          </div>
       </div>
     </footer>
   );
